@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Quattrocento:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ruda:wght@400..900&display=swap');
+.width {
+  width: 95%;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+#colum{
+    display: flex;
+    flex-direction: column;
+}
+form>input{
+margin-top: 20px;
+width: 126px;
+height: 28px;
+top: 308px;
+left: 58px;
+gap: 0px;
+opacity: 0px;
+}
+#err{
+    font-size: 12px;
+    color: grey;
+    
+}
+#msg{
+    font-size: 16px;
+  font-weight: 400;
+  line-height: 21.78px;
+  text-align: left;
+  margin-top: 20px;
+}
+label {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.78px;
+  text-align: left;
+}
+.flex div {
+  width: 30%;
+}
+input {
+  width: 90%;
+}
+h2 {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 29.05px;
+  text-align: left;
+}
+body {
+  font-family: Inter;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.curve{
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+#id{
+    margin-left: 5px;
+}
+#aged{
+    margin-right: 5px;
+}
+.curve p{
+    font-size: 10px;
+}
+#delete{
+    border-radius: 10px;
+    padding: 2px 10px;
+}
